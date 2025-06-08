@@ -69,7 +69,7 @@ var ary_CharacterData = [
 [1, "Razzle & Dazzle", [0,1,0,0,0,0,0,0], "https://i.imgur.com/zw29gHs.png"],
 [1, "Rodger", [0,1,0,0,0,0,0,0], "https://i.imgur.com/FNflQDT.png"],
 [1, "Rudie", [0,1,0,0,0,0,0,0], "https://i.imgur.com/hhVL3HB.png"],
-[1, "Scraps", [0,1,0,0,0,0,0,0], "p2QY4EV.png"],
+[1, "Scraps", [0,1,0,0,0,0,0,0], "https://i.imgur.com/wAsGmHd.png"],
 [1, "Shelly", [1,0,0,0,0,0,0,0], "https://i.imgur.com/D1UdHPG.png"],
 [1, "Shrimpo", [0,1,0,0,0,0,0,0], "https://i.imgur.com/LQABxLk.png"],
 [1, "Sprout", [1,0,0,0,0,0,0,0], "https://i.imgur.com/tEwHjkh.png"],
