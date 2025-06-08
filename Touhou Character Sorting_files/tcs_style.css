@@ -25,7 +25,7 @@
   border: 1px solid #FFFFFF;
   cursor: pointer;
   font-family: 'Kabel', sans-serif;
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
 }
 
@@ -61,7 +61,7 @@ div#resultField {
 
 .resTableH {
   color: #FFFFFF;
-  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.5);
   text-align: center;
   font-family: 'Kabel', sans-serif;
 }
