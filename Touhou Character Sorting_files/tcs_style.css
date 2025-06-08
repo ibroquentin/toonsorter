@@ -17,8 +17,8 @@
 
 #fldLeft    {
 	text-align: center;
-	width: 120px;
-	height: 180px;
+	width: 150px;
+	height: 150px;
 	padding:0px;
 	border: 1px solid #FFFFFF;
 	cursor:pointer;
@@ -26,8 +26,8 @@
 }
 #fldRight   {
 	text-align: center;
-	width: 120px;
-	height: 180px;
+	width: 150px;
+	height: 150px;
 	padding:0px;
 	border: 1px solid #FFFFFF;
 	cursor:pointer;
@@ -36,7 +36,7 @@
 #fldMiddleT {
 	text-align: center;
 	width: 150px;
-	height: 90px;
+	height: 150px;
 	padding:0px;
 	border: 1px solid #FFFFFF;
 	cursor:pointer;
@@ -45,7 +45,7 @@
 #fldMiddleB {
 	text-align: center;
 	width: 150px;
-	height: 90px;
+	height: 150px;
 	padding:0px;
 	border: 1px solid #FFFFFF;
 	cursor:pointer;
