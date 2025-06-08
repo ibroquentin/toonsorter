@@ -55,7 +55,7 @@ var ary_CharacterData = [
 [1, "Cocoa", [0,0,1,0,0,0,0,0], "https://i.imgur.com/1tbAvbR.png"],
 [1, "Cosmo", [0,1,0,0,0,0,0,0], "https://i.imgur.com/7zhnDiq.png"],
 [1, "Dandy", [1,0,0,0,0,0,0,0], "https://i.imgur.com/5wHMQWD.png"],
-[1, "Eggson", [0,0,1,0,0,0,0,0] "https://i.imgur.com/blwJc3l.png"],
+[1, "Eggson", [0,0,1,0,0,0,0,0], "https://i.imgur.com/blwJc3l.png"],
 [1, "Finn", [0,1,0,0,0,0,0,0], "https://i.imgur.com/HyTuQSp.png"],
 [1, "Flutter", [0,1,0,0,0,0,0,0], "https://i.imgur.com/7DUgLp6.png"],
 [1, "Flyte", [0,0,1,0,0,0,0,0], "https://i.imgur.com/yvYDdZA.png"],
