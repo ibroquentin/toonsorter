@@ -61,7 +61,7 @@ a:active {
     <thead>
      <tr>
       <td colspan="3" class="tb_header">Battle No. <span id="lblCount">-</span><br>
-       <span id="lblProgress">0</span>% sorted.<br>
+       <span id="lblProgressBar">0</span>% sorted.<br>
        <div align="center"><span id="GaGprog"></span></div>
       </td>
      </tr>
@@ -115,5 +115,13 @@ Click on the character you like better from the two, or tie them if you like the
 
 <script type="text/javascript" src="Touhou%20Character%20Sorting_files/count.js"></script>
 <!-- End Of Analytics Code -->
+<script>
+    var tables = document.querySelectorAll('#optTable');
+    if (tables.length > 1) {
+        for (var i = 1; i < tables.length; i++) {
+            tables[i].parentNode.removeChild(tables[i]);
+        }
+    }
+</script>
 </body></html>
 <!-- Hosting24 Analytics Code -->
