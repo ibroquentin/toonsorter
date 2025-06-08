@@ -1,112 +1,92 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-
--#mainTable {
-   font-size: 20px;
-   font-family: 'Kabel', sans-serif;
-   text-align: center;
-   vertical-align: middle;
-   width: 410px;
-   margin-left: auto;
-   margin-right: auto;
-   border-collapse: separate;
-   border-spacing: 10px 5px;
+-
+#mainTable {
+  font-size: 20px;
+  font-family: 'Kabel', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  width: 410px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 10px 5px;
 }
 
 .tb_header {
-	padding-bottom: 10px;
-	font-family: 'Kabel', sans-serif;
+  padding-bottom: 10px;
+  font-family: 'Kabel', sans-serif;
 }
 
-#fldLeft    {
-	text-align: center;
-	width: 150px;
-	height: 150px;
-	padding:0px;
-	border: 1px solid #FFFFFF;
-	cursor:pointer;
-	font-family: 'Kabel', sans-serif;
-	background-color: #FFFFFF;
+#fldLeft, #fldRight, #fldMiddleT, #fldMiddleB {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+  font-family: 'Kabel', sans-serif;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
 }
-#fldRight   {
-	text-align: center;
-	width: 150px;
-	height: 150px;
-	padding:0px;
-	border: 1px solid #FFFFFF;
-	cursor:pointer;
-	font-family: 'Kabel', sans-serif;
-	background-color: #FFFFFF;
-}
-#fldMiddleT {
-	text-align: center;
-	width: 150px;
-	height: 150px;
-	padding:0px;
-	border: 1px solid #FFFFFF;
-	cursor:pointer;
-	font-family: 'Kabel', sans-serif;
-	background-color: #FFFFFF;
-}
-#fldMiddleB {
-	text-align: center;
-	width: 150px;
-	height: 150px;
-	padding:0px;
-	border: 1px solid #FFFFFF;
-	cursor:pointer;
-	font-family: 'Kabel', sans-serif;
-	background-color: #FFFFFF;
+
+#fldLeft img, #fldRight img, #fldMiddleT img, #fldMiddleB img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .cbox {
-	cursor:pointer;
-	font-family: 'Kabel', sans-serif;
-	font-size: 9px;
+  cursor: pointer;
+  font-family: 'Kabel', sans-serif;
+  font-size: 9px;
 }
 
 div#resultField {
-    display: block;
-    width: 80%;
-    margin: 0px auto;
+  display: block;
+  width: 80%;
+  margin: 0px auto;
 }
 
 .resTable {
-    display: block;
-    float: left;
-	font-size:12px;
-	line-height:120%;
-	margin: 0.5em;
-	border:1px solid #FFFFFF;
-	border-collapse:collapse;
-	text-align: center;
-	font-family: 'Kabel', sans-serif;
+  display: block;
+  float: left;
+  font-size: 12px;
+  line-height: 120%;
+  margin: 0.5em;
+  border: 1px solid #FFFFFF;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Kabel', sans-serif;
 }
 
 .resTableH {
-	color:#FFFFFF;
-	background-color:#FFFFFF;
-	text-align:center;
-	font-family: 'Kabel', sans-serif;
-}
-.resTableL {
-	color:#FFFFFF;
-	border:1px solid #FFFFFF;
-	text-align:right;
-	padding-right:5px;
-	font-family: 'Kabel', sans-serif;
-}
-.resTableR {
-	color:#FFFFFF;
-	border:1px solid #FFFFFF;
-	font-family: 'Kabel', sans-serif;
-    width: 14em;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  text-align: center;
+  font-family: 'Kabel', sans-serif;
 }
 
-a       {
-	text-decoration:none;
-	font-family: 'Kabel', sans-serif;
+.resTableL {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  text-align: right;
+  padding-right: 5px;
+  font-family: 'Kabel', sans-serif;
 }
+
+.resTableR {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  font-family: 'Kabel', sans-serif;
+  width: 14em;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Kabel', sans-serif;
+}
+
 a:hover {
-	color:#99ccff;
-	font-family: 'Kabel', sans-serif;
+  color: #99ccff;
+  font-family: 'Kabel', sans-serif;
 }
