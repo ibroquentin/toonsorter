@@ -77,5 +77,5 @@ var ary_CharacterData = [
 [1, "Tisha", [0,1,0,0,0,0,0,0], "https://i.imgur.com/nsRbpVS.png"],
 [1, "Toodles", [0,1,0,0,0,0,0,0], "https://i.imgur.com/0YqFkGw.png"],
 [1, "Vee", [1,0,0,0,0,0,0,0], "https://i.imgur.com/09LwHrf.png"],
-[1, "Yatta", [0,1,0,0,0,0,0,0], "https://i.imgur.com/0YqFkGw.png"],
+[1, "Yatta", [0,1,0,0,0,0,0,0], "https://i.imgur.com/0YqFkGw.png"]
 ];
