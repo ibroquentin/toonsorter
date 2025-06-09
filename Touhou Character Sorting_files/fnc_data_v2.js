@@ -30,11 +30,11 @@ var ary_TitleData = [
 "Main Toons",
 "Regular Toons",
 "Event Toons",
-"Main Twisteds",
-"Regular Twisteds",
-"Event Twisteds",
-"Toon Handlers",
-"Others"
+"<s>Main Twisteds</s>",
+"<s>Regular Twisteds</s>",
+"<s>Event Twisteds</s>",
+"<s>Toon Handlers</s>",
+"<s>Others</s>"
 ];
 
 // * キャラクター情報（編集可能。最後の行に”,”を付けないようにしてください）
