@@ -23,7 +23,7 @@
 
 #fldLeft, #fldRight, #fldMiddleT, #fldMiddleB {
   text-align: center;
-  width: 350x;
+  width: 450x;
   height: 100px;
   padding: 0;
   border: 1px solid #FFFFFF;
@@ -42,7 +42,7 @@
 .cbox {
   cursor: url('https://iili.io/FFnZyzu.png'), pointer;
   font-family: 'Kabel', sans-serif;
-  font-size: 9px;
+  font-size: 2px;
 }
 
 div#resultField {
@@ -82,7 +82,7 @@ div#resultField {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
   font-family: 'Kabel', sans-serif;
-  width: 14em;
+  width: 14px;
 }
 
 a {
