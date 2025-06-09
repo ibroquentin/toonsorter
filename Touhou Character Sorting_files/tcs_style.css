@@ -21,7 +21,7 @@
   text-align: center;
   width: 150px;
   height: 150px;
-  padding: 0;
+  padding: 5;
   border: 1px solid #FFFFFF;
   cursor: pointer;
   font-family: 'Kabel', sans-serif;
@@ -44,7 +44,7 @@
 div#resultField {
   display: block;
   width: 80%;
-  margin: 0px auto;
+  margin: 4px auto;
 }
 
 .resTable {
