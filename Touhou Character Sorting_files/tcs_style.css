@@ -6,7 +6,7 @@
 }
 #mainTable {
   font-size: 20px;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   text-align: center;
   vertical-align: middle;
   width: 410px;
@@ -18,7 +18,7 @@
 
 .tb_header {
   padding-bottom: 0px;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 #fldLeft, #fldRight, #fldMiddleT, #fldMiddleB {
@@ -28,7 +28,7 @@
   padding: 0px;
   border: 1px solid #FFFFFF;
   cursor: url('https://iili.io/FFnZyzu.png'), pointer;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   background-color: rgba(255, 255, 255, 0.55);
   box-sizing: border-box;
 }
@@ -41,7 +41,7 @@
 
 .cbox {
   cursor: url('https://iili.io/FFnZyzu.png'), pointer;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   font-size: 20px;
 }
 
@@ -60,14 +60,14 @@ div#resultField {
   border: 1px solid #FFFFFF;
   border-collapse: collapse;
   text-align: center;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 .resTableH {
   color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.6);
   text-align: center;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 .resTableL {
@@ -75,23 +75,23 @@ div#resultField {
   border: 1px solid #FFFFFF;
   text-align: right;
   padding-right: 0px;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 .resTableR {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   width: 14px;
 }
 
 a {
   text-decoration: none;
   color: #fff5db;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 
 a:hover {
   color: #fff5db;
-  font-family: 'Kabel', sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
