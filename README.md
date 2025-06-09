@@ -1,5 +1,4 @@
-revised_touhou_sort
+Dandy's World Toon Sorter
 ===================
 
-modified touhou sort
-
+im gay
