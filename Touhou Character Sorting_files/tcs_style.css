@@ -40,7 +40,7 @@
 }
 
 .cbox {
-  cursor: pointer;
+  cursor: url('https://iili.io/FFnZyzu.png'), pointer;
   font-family: 'Kabel', sans-serif;
   font-size: 9px;
 }
