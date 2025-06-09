@@ -45,7 +45,7 @@ var ary_TitleData = [
 // [1,2,3,4,5,6,7,8,9,
 var ary_CharacterData = [
 [1, "Astro", [1,0,0,0,0,0,0,0], "FFn3uvj.png"],
-[1, "Bobette", [1,0,0,0,0,0,0,0], "FFB4c2s.png"],
+[1, "Bobette", [1,0,1,0,0,0,0,0], "FFB4c2s.png"],
 [1, "Boxten", [0,1,0,0,0,0,0,0], "FFqDMba.png"],
 [1, "Bassie", [1,0,1,0,0,0,0,0], "FFB4AQI.png"],
 [1, "Brightney", [0,1,0,0,0,0,0,0], "FFCsddX.png"],
@@ -77,5 +77,44 @@ var ary_CharacterData = [
 [1, "Tisha", [0,1,0,0,0,0,0,0], "FFCiDzv.png"],
 [1, "Toodles", [0,1,0,0,0,0,0,0], "FFCsqX4.png"],
 [1, "Vee", [1,0,0,0,0,0,0,0], "FFnFwRj.png"],
-[1, "Yatta", [0,1,0,0,0,0,0,0], "FFCsnB2.png"]
+[1, "Yatta", [0,1,0,0,0,0,0,0], "FFCsnB2.png"],
+
+  <!-- twisteds -->
+
+[1, "Twisted Astro", [0,0,0,1,0,0,0,0], "FFn3uvj.png"],
+[1, "Twisted Bobette", [0,0,0,1,0,1,0,0], "FFB4c2s.png"],
+[1, "Twisted Boxten", [0,0,0,0,1,0,0,0], "FFqDMba.png"],
+[1, "Twisted Bassie", [0,0,0,1,0,1,0,0], "FFB4AQI.png"],
+[1, "Twisted Brightney", [0,0,0,0,1,0,0,0], "FFCsddX.png"],
+[1, "Twisted Blot", [0,0,0,0,1,0,0,0], "FFCso1S.png"],
+[1, "Twisted Coal", [0,0,0,0,1,0,0,0], "FFB4uhN.png"],
+[1, "Twisted Connie", [0,0,0,0,1,0,0,0], "FFCsFmG.png"],
+[1, "Twisted Cocoa", [0,0,0,0,1,0,0,0], "FFB4TIp.png"],
+[1, "Twisted Cosmo", [0,0,0,0,1,0,0,0], "FFCsBLl.png"],
+[1, "Twisted Dandy", [0,0,0,1,0,0,0,0], "FFqw0fp.png"],
+[1, "Twisted Eggson", [0,0,0,0,1,0,0,0], "FFB4zpR.png"],
+[1, "Twisted Finn", [0,0,0,0,1,0,0,0], "FFCsHgt.png"],
+[1, "Twisted Flutter", [0,0,0,0,1,0,0,0], "FFCs27n.png"],
+[1, "Twisted Flyte", [0,0,0,0,1,0,0,0], "FFB47EX.png"],
+[1, "Twisted Gigi", [0,0,0,0,1,0,0,0], "FFCimsp.png"],
+[1, "Twisted Ginger", [0,0,0,0,1,0,0,0], "FFnKarF.png"],
+[1, "Twisted Glisten", [0,0,0,0,1,0,0,0], "FFCsfIf.png"],
+[1, "Twisted Goob", [0,0,0,0,1,0,0,0], "FFnKZpj.png"],
+[1, "Twisted Looey", [0,0,0,0,1,0,0,0], "FFCsxr7.png"],
+[1, "Twisted Pebble", [0,0,0,1,0,0,0,0], "FFn37jV.png"],
+[1, "Twisted Poppy", [0,0,0,0,1,0,0,0], "FFqbJ1V.png"],
+[1, "Twisted Razzle & Dazzle", [0,0,0,0,1,0,0,0], "FFCs91I.png"],
+[1, "Twisted Rodger", [0,0,0,0,1,0,0,0], "FFCiyqN.png"],
+[1, "Twisted Rudie", [0,0,0,0,1,0,0,0], "FFB4Y4n.png"],
+[1, "Twisted Scraps", [0,0,0,0,1,0,0,0], "FFnfhwx.png"],
+[1, "Twisted Shelly", [0,0,0,1,0,0,0,0], "FFn35TQ.png"],
+[1, "Twisted Shrimpo", [0,0,0,0,1,0,0,0], "FFCs3es.png"],
+[1, "Twisted Sprout", [0,0,0,3,0,0,0,0], "FFn3Ayx.png"],
+[1, "Twisted Teagan", [0,0,0,0,1,0,0,0], "FFCibXR.png"],
+[1, "Twisted Tisha", [0,0,0,0,1,0,0,0], "FFCiDzv.png"],
+[1, "Twisted Toodles", [0,0,0,0,1,0,0,0], "FFCsqX4.png"],
+[1, "Twisted Vee", [0,0,0,1,0,0,0,0], "FFnFwRj.png"],
+[1, "Twisted Yatta", [0,0,0,0,1,0,0,0], "FFCsnB2.png"]
+
+  
 ];
