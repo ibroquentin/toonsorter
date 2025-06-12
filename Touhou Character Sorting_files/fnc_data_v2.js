@@ -5,7 +5,7 @@
 str_CenterT = 'Tie!';
 str_CenterB = 'Undo last choice';
 
-str_ImgPath = 'https://github.com/ibroquentin/toonsorter/tree/9732dfd4476130d4a33c930f089cb365cb737215/Touhou%20Character%20Sorting_files/waa/';
+str_ImgPath = './Touhou%20Character%20Sorting_files/waa/';
 // 0:順番に　1:昔の
 var bln_ResultMode = 1;
 // 0:テキスト　1:イラスト　2:テキスト＋イラスト
