@@ -5,7 +5,7 @@
 str_CenterT = 'Tie!';
 str_CenterB = 'Undo last choice';
 
-str_ImgPath = 'https://u.cubeupload.com/yatta/';
+str_ImgPath = 'https://github.com/ibroquentin/toonsorter/tree/9732dfd4476130d4a33c930f089cb365cb737215/Touhou%20Character%20Sorting_files/waa/';
 // 0:順番に　1:昔の
 var bln_ResultMode = 1;
 // 0:テキスト　1:イラスト　2:テキスト＋イラスト
@@ -81,17 +81,17 @@ var ary_CharacterData = [
 
   <!-- twisteds -->
 
-[1, "Twisted Astro", [0,0,0,1,0,0,0,0], "TwistedAstroRender.png"],
-[1, "Twisted Bobette", [0,0,0,1,0,1,0,0], "TwistedBobetteRender.png"],
+[1, "Twisted Astro", [0,0,0,1,0,0,0,0], "Twisted_Astro_Render.png"],
+[1, "Twisted Bobette", [0,0,0,1,0,1,0,0], "Twisted_Bobette_Render.png"],
 [1, "Twisted Boxten", [0,0,0,0,1,0,0,0], "TwistedBoxtenRender.png"],
-[1, "Twisted Bassie", [0,0,0,1,0,1,0,0], "TwistedBassieRender.png"],
+[1, "Twisted Bassie", [0,0,0,1,0,1,0,0], "Twisted_Bassie_Render.png"],
 [1, "Twisted Brightney", [0,0,0,0,1,0,0,0], "TwistedBrightneyRender.png"],
 [1, "Twisted Blot", [0,0,0,0,1,0,0,0], "TwistedBlotRender.png"],
 [1, "Twisted Coal", [0,0,0,0,0,1,0,0], "TwistedCoalRender.png"],
 [1, "Twisted Connie", [0,0,0,0,1,0,0,0], "TwistedConnieRender.png"],
 [1, "Twisted Cocoa", [0,0,0,0,0,1,0,0], "TwistedCocoaRender.png"],
 [1, "Twisted Cosmo", [0,0,0,0,1,0,0,0], "TwistedCosmoRender.png"],
-[1, "Twisted Dandy", [0,0,0,1,0,0,0,0], "TwistedDandyRender.png"],
+[1, "Twisted Dandy", [0,0,0,1,0,0,0,0], "Twisted_Dandy_Render.png"],
 [1, "Twisted Eggson", [0,0,0,0,0,1,0,0], "TwistedEggsonRender.png"],
 [1, "Twisted Finn", [0,0,0,0,1,0,0,0], "TwistedFinnRender.png"],
 [1, "Twisted Flutter", [0,0,0,0,1,0,0,0], "TwistedFlutterRender.png"],
@@ -101,19 +101,19 @@ var ary_CharacterData = [
 [1, "Twisted Glisten", [0,0,0,0,1,0,0,0], "TwistedGlistenRender.png"],
 [1, "Twisted Goob", [0,0,0,0,1,0,0,0], "TwistedGoobRender.png"],
 [1, "Twisted Looey", [0,0,0,0,1,0,0,0], "TwistedLooeyRender.png"],
-[1, "Twisted Pebble", [0,0,0,1,0,0,0,0], "TwistedPebbleRender.png"],
+[1, "Twisted Pebble", [0,0,0,1,0,0,0,0], "Twisted_Pebble_Render.png"],
 [1, "Twisted Poppy", [0,0,0,0,1,0,0,0], "TwistedPoppyRender.png"],
 [1, "Twisted Razzle & Dazzle", [0,0,0,0,1,0,0,0], "TwistedRazzleDazzleRender.png"],
 [1, "Twisted Rodger", [0,0,0,0,1,0,0,0], "TwistedRodgerRender.png"],
 [1, "Twisted Rudie", [0,0,0,0,0,1,0,0], "TwistedRudieRender.png"],
 [1, "Twisted Scraps", [0,0,0,0,1,0,0,0], "TwistedScrapsRender.png"],
-[1, "Twisted Shelly", [0,0,0,1,0,0,0,0], "TwistedShellyRender.png"],
+[1, "Twisted Shelly", [0,0,0,1,0,0,0,0], "Twisted_Shelly_Render.png"],
 [1, "Twisted Shrimpo", [0,0,0,0,1,0,0,0], "TwistedShrimpoRender.png"],
-[1, "Twisted Sprout", [0,0,0,1,0,0,0,0], "TwistedSproutRender.png"],
+[1, "Twisted Sprout", [0,0,0,1,0,0,0,0], "Twisted_Sprout_Render.png"],
 [1, "Twisted Teagan", [0,0,0,0,1,0,0,0], "TwistedTeaganRender.png"],
 [1, "Twisted Tisha", [0,0,0,0,1,0,0,0], "TwistedTishaRender.png"],
 [1, "Twisted Toodles", [0,0,0,0,1,0,0,0], "TwistedToodlesRender.png"],
-[1, "Twisted Vee", [0,0,0,1,0,0,0,0], "TwistedVeeRender.png"],
+[1, "Twisted Vee", [0,0,0,1,0,0,0,0], "Twisted_Vee_Render.png"],
 [1, "Twisted Yatta", [0,0,0,0,1,0,0,0], "TwistedYattaRender.png"]
 
   
