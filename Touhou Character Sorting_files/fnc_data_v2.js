@@ -66,7 +66,7 @@ var ary_CharacterData = [
 [1, "Looey", [0,1,0,0,0,0,0,0], "Looey.png"],
 [1, "Pebble", [1,0,0,0,0,0,0,0], "m6.png"],
 [1, "Poppy", [0,1,0,0,0,0,0,0], "Poppy.png"],
-[1, "Razzle & Dazzle", [0,1,0,0,0,0,0,0], "Razzle & Dazzle.png"],
+[1, "Razzle & Dazzle", [0,1,0,0,0,0,0,0], "RazzleDazzle.png"],
 [1, "Rodger", [0,1,0,0,0,0,0,0], "Rodger.png"],
 [1, "Rudie", [0,1,0,0,0,0,0,0], "Rudie.png"],
 [1, "Scraps", [0,1,0,0,0,0,0,0], "Scraps.png"],
