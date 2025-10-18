@@ -2,7 +2,7 @@
 // 2009/1/27 Modified by K-Factory@migiwa
 
 // *****************************************************************************
-str_CenterT = 'Tie';
+str_CenterT = 'Tie!';
 str_CenterB = 'Undo last choice';
 
 str_ImgPath = './TouhouCharacterSorting_files/waa/';
@@ -18,6 +18,44 @@ var int_ResultRank = 3;
 var bln_ResultStyle = 0;
 
 // ソート進捗バーの表示
+// 0:表示　1:消す
+var bln_ProgessBar = 1;
+
+// Maximum number of result rows before being broken off into another table.
+var maxRows = 35;
+
+// * タイトル情報（編集可能。最後の行に”,”を付けないようにしてください）
+var int_Colspan = 3;
+var ary_TitleData = [
+"Main Toons",
+"Regular Toons",
+"Event Toons",
+"Main Twisteds",
+"Regular Twisteds",
+"Event Twisteds",
+"Toon Handlers",
+"Others"
+];
+
+// * キャラクター情報（編集可能。最後の行に”,”を付けないようにしてください）
+// * 使用フラグ（0にするとソートに入りません）,
+// "タイトルID"（先頭から0, 1, 2...）,
+// {タイトル別参加フラグ}（1を入れると対象タイトルに入ります）,
+// "キャラクター名", "画像（空白の場合、キャラクター名が使用されます）"
+// [1,2,3,4,5,6,7,8,9,
+var ary_CharacterData = [
+[1, "Astro", [1,0,0,0,0,0,0,0], "m5.png"],
+[1, "Bobette", [1,0,1,0,0,0,0,0], "Bobette.png"],
+[1, "Boxten", [0,1,0,0,0,0,0,0], "Boxten.png"],
+[1, "Bassie", [1,0,1,0,0,0,0,0], "Bassie.png"],
+[1, "Brightney", [0,1,0,0,0,0,0,0], "Brightney.png"],
+[1, "Blot", [0,1,0,0,0,0,0,0,], "Blot.png"],
+[1, "Coal", [0,1,0,0,0,0,0,0], "Coal.png"],
+[1, "Connie", [0,1,0,0,0,0,0,0], "Connie.png"],
+[1, "Cocoa", [0,0,1,0,0,0,0,0], "Cocoa.png"],
+[1, "Cosmo", [0,1,0,0,0,0,0,0], "Cosmo.png"],
+[1, "Dandy", [1,0,0,0,0,0,0,0], "m2.png"],
+[1, "Eggson", [0,0,1,0,0,0,0,0], "Eggson.png"],// 2008/7/3 Scripted by K-Factory@migiwa
 // 0:表示　1:消す
 var bln_ProgessBar = 1;
 
@@ -93,6 +131,48 @@ var ary_CharacterData = [
 [1, "Twisted Cosmo", [0,0,0,0,1,0,0,0], "Twisted_Cosmo_Render.png"],
 [1, "Twisted Dandy", [0,0,0,1,0,0,0,0], "Twisted_Dandy_Render.png"],
 [1, "Twisted Eggson", [0,0,0,0,0,1,0,0], "Twisted_Eggson_Render.png"],
+
+[1, "Finn", [0,1,0,0,0,0,0,0], "Finn.png"],
+[1, "Flutter", [0,1,0,0,0,0,0,0], "Flutter.png"],
+[1, "Flyte", [0,0,1,0,0,0,0,0], "Flyte.png"],
+[1, "Gigi", [0,1,0,0,0,0,0,0], "Gigi.png"],
+[1, "Ginger", [0,1,0,0,0,0,0,0], "Ginger.png"],
+[1, "Glisten", [0,1,0,0,0,0,0,0], "Glisten.png"],
+[1, "Goob", [0,1,0,0,0,0,0,0], "Goob.png"],
+[1, "Looey", [0,1,0,0,0,0,0,0], "Looey.png"],
+[1, "Pebble", [1,0,0,0,0,0,0,0], "m6.png"],
+[1, "Poppy", [0,1,0,0,0,0,0,0], "Poppy.png"],
+[1, "Razzle & Dazzle", [0,1,0,0,0,0,0,0], "Razzle & Dazzle.png"],
+[1, "Rodger", [0,1,0,0,0,0,0,0], "Rodger.png"],
+[1, "Rudie", [0,0,1,0,0,0,0,0], "Rudie.png"],
+[1, "Scraps", [0,1,0,0,0,0,0,0], "Scraps.png"],
+[1, "Shelly", [1,0,0,0,0,0,0,0], "m3.png"],
+[1, "Shrimpo", [0,1,0,0,0,0,0,0], "Shrimpo.png"],
+[1, "Sprout", [1,0,0,0,0,0,0,0], "m4.png"],
+[1, "Teagan", [0,1,0,0,0,0,0,0], "Teagan.png"],
+[1, "Tisha", [0,1,0,0,0,0,0,0], "Tisha.png"],
+[1, "Toodles", [0,1,0,0,0,0,0,0], "Toodles.png"],
+[1, "Vee", [1,0,0,0,0,0,0,0], "m1.png"],
+[1, "Yatta", [0,1,0,0,0,0,0,0], "Yatta.png"],
+[1, "Eclipse", [0,0,1,0,0,0,0,0], "Eclipse.png"],
+[1, "Gourdy", [1,0,1,0,0,0,0,0], "Gourdy.png"],
+[1, "Ribecca", [0,0,1,0,0,0,0,0], "Ribecca.png"],
+[1, "Soulvester", [0,0,1,0,0,0,0,0], "Soulvester.png"],
+
+  <!-- twisteds -->
+
+[1, "Twisted Astro", [0,0,0,1,0,0,0,0], "Twisted_Astro_Render.png"],
+[1, "Twisted Bobette", [0,0,0,1,0,1,0,0], "Twisted_Bobette_Render.png"],
+[1, "Twisted Boxten", [0,0,0,0,1,0,0,0], "Twisted_Boxten_Render.png"],
+[1, "Twisted Bassie", [0,0,0,1,0,1,0,0], "Twisted_Bassie_Render.png"],
+[1, "Twisted Brightney", [0,0,0,0,1,0,0,0], "Twisted_Brightney_Render.png"],
+[1, "Twisted Blot", [0,0,0,0,1,0,0,0], "Twisted_Blot_Render.png"],
+[1, "Twisted Coal", [0,0,0,0,0,1,0,0], "Twisted_Coal_Render.png"],
+[1, "Twisted Connie", [0,0,0,0,1,0,0,0], "Twisted_Connie_Render.png"],
+[1, "Twisted Cocoa", [0,0,0,0,0,1,0,0], "Twisted_Cocoa_Render.png"],
+[1, "Twisted Cosmo", [0,0,0,0,1,0,0,0], "Twisted_Cosmo_Render.png"],
+[1, "Twisted Dandy", [0,0,0,1,0,0,0,0], "Twisted_Dandy_Render.png"],
+[1, "Twisted Eggson", [0,0,0,0,0,1,0,0], "Twisted_Eggson_Render.png"],
 [1, "Twisted Finn", [0,0,0,0,1,0,0,0], "Twisted_Finn_Render.png"],
 [1, "Twisted Flutter", [0,0,0,0,1,0,0,0], "Twisted_Flutter_Render.png"],
 [1, "Twisted Flyte", [0,0,0,0,0,1,0,0], "Twisted_Flyte_Render.png"],
@@ -114,7 +194,11 @@ var ary_CharacterData = [
 [1, "Twisted Tisha", [0,0,0,0,1,0,0,0], "Twisted_Tisha_Render.png"],
 [1, "Twisted Toodles", [0,0,0,0,1,0,0,0], "Twisted_Toodles_Render.png"],
 [1, "Twisted Vee", [0,0,0,1,0,0,0,0], "Twisted_Vee_Render.png"],
-[1, "Twisted Yatta", [0,0,0,0,1,0,0,0], "Twisted_Yatta_Render.png"]
+[1, "Twisted Yatta", [0,0,0,0,1,0,0,0], "Twisted_Yatta_Render.png"],
+[1, "Twisted Eclipse", [0,0,0,0,0,1,0,0], "Twisted_Eclipse_Render.png"],
+[1, "Twisted Ribecca", [0,0,0,0,0,1,0,0], "Twisted_Ribecca_Render.png"],
+[1, "Twisted Soulvester", [0,0,0,0,0,1,0,0], "Twisted_Soulvester_Render.png"],
+[1, "Twisted Gourdy", [0,0,0,1,0,1,0,0], "Twisted_Gourdy_Render.png"]
 
   
 ];
