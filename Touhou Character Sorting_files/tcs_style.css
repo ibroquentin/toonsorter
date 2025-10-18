@@ -44,6 +44,7 @@
 .cbox {
   cursor: url('https://iili.io/FFnZyzu.png'), pointer;
   font-family: 'Fredoka', sans-serif;
+  color: #fff5db!important;
   font-size: 20px;
 }
 
@@ -66,14 +67,14 @@ div#resultField {
 }
 
 .resTableH {
-  color: #FFFFFF;
+  color: #fff5db!important;
   background-color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-family: 'Fredoka', sans-serif;
 }
 
 .resTableL {
-  color: #FFFFFF;
+  color: #fff5db!important;
   border: 1px solid #FFFFFF;
   text-align: right;
   padding-right: 0px;
@@ -81,7 +82,7 @@ div#resultField {
 }
 
 .resTableR {
-  color: #FFFFFF;
+  color: #fff5db!important;
   border: 1px solid #FFFFFF;
   font-family: 'Fredoka', sans-serif;
   width: 14px;
