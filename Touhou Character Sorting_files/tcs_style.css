@@ -7,6 +7,7 @@
 #mainTable {
   font-size: 20px;
   font-family: 'Fredoka', sans-serif;
+  color: #fff5db!important;
   text-align: center;
   vertical-align: middle;
   width: 410px;
@@ -18,6 +19,7 @@
 
 .tb_header {
   padding-bottom: 0px;
+  color: #fff5db!important;
   font-family: 'Fredoka', sans-serif;
 }
 
@@ -87,12 +89,12 @@ div#resultField {
 
 a {
   text-decoration: none;
-  text-color: #fff5db;
-  color: #fff5db;
+  text-color: #fff5db!important;
+  color: #fff5db!important;
   font-family: 'Fredoka', sans-serif;
 }
 
 a:hover {
-  color: #fff5db;
+  color: #fff5db!important;
   font-family: 'Fredoka', sans-serif;
 }
